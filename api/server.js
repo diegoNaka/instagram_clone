@@ -18,7 +18,7 @@ app.listen(port);
 console.log('Servidor http está escutando na porta '+port);
 
 app.get('/', function(res, res){
-	res.send({msg: 'olá'});
+	res.send({msg: 'olá node'});
 });
 
 
